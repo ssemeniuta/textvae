@@ -1,0 +1,18 @@
+{
+  "filename": "lm_vae_baseline.py",
+  "gpus": [0],
+  "grid": [
+    {
+      "name": "net",
+      "values": ["rnn"]
+    },
+    {
+      "name": "sample_size",
+      "values": [12, 24, 36, 48, 60]
+    },
+    {
+      "name": "p",
+      "values": [0.2, 0.5]
+    }
+  ]
+}

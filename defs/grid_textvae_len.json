@@ -1,0 +1,14 @@
+{
+  "filename": "lm_vae_lstm.py",
+  "gpus": [0],
+  "grid": [
+    {
+      "name": "sample_size",
+      "values": [12, 24, 36, 48, 60]
+    },
+    {
+      "name": "alpha",
+      "values": [0.2]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "filename": "lm_vae.py",
+  "gpus": [0],
+  "grid": [
+    {
+      "name": "charcnn_layers",
+      "values": [1, 2, 3, 5, 7, 10]
+    },
+    {
+      "name": "alpha",
+      "values": [0.0, 0.2, 0.5]
+    }
+  ]
+}
