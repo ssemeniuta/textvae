@@ -1,6 +1,6 @@
 ####  A Hybrid Convolutional Variational Autoencoder for Text Generation.
 
-Theano code for experiments in the paper [A Hybrid Convolutional Variational Autoencoder for Text Generation](https://arxiv.org/abs/xxxx.yyyyy).
+Theano code for experiments in the paper [A Hybrid Convolutional Variational Autoencoder for Text Generation](https://arxiv.org/abs/1702.02390).
 
 #### Preparation
 
@@ -19,4 +19,4 @@ python -u lm_vae_lstm.py -alpha 0.2 -sample_size 60
 
 #### Twitter Experiments
 
-Code for these experiments is in files starting with ''twitter_''. We do not release the dataset we have used to train our model, but provide both a script to train one and [a pretrained model](https://dl.dropboxusercontent.com/u/60972596/pretrained.tar). To use the script on custom data, create a file ''data/twitter.txt'' containing one data sample per line. By default, the first 10M samples will be used for validation and everything else for training, but no more than ~1M samples.
+Code for these experiments is in files starting with ''twitter_''. We do not release the dataset we have used to train our model, but provide both a script to train one and [a pretrained model](https://dl.dropboxusercontent.com/u/60972596/pretrained.tar). To use the script on custom data, create a file ''data/tweets.txt'' containing one data sample per line. By default, the first 10k samples will be used for validation and everything else for training, but no more than ~1M samples.
